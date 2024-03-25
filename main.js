@@ -11,7 +11,6 @@ function createBoard(size){
 
     for(let i = 0; i < numDivs; i++){
         let div = document.createElement('div')
-
         board.insertAdjacentElement('beforeend', div)
     }
 }
